@@ -16,5 +16,10 @@ public static void main(String[] args) {
 			username.sendKeys("gugan");
 			WebElement pass = driver.findElement(By.id("password"));
 			pass.sendKeys("12345");
+
+			WebElement login = driver.findElement(By.id("login"));
+			login.click();
+
+			
 }
 }
